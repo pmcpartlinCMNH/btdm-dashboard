@@ -1,5 +1,5 @@
-# University of Nebraska - Lincoln Dance Marathon Dashboard
-This repository represents a dashboard for the UNL dance marathon event day.
+# The Ohio State University - BuckeyeThon Dance Marathon Dashboard
+This repository represents a dashboard for the BuckeyeThon dance marathon event day.
 
 # Getting Started with Create React App
 
