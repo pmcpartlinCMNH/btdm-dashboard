@@ -13,7 +13,7 @@ function RecentDonations(props){
             <thead>
                 <tr>
                     <th colSpan={2}>
-                        Miracle Maker
+                        Team Member
                     </th>
                     <th>
                         Donor
