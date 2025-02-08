@@ -29,7 +29,7 @@ class Dashboard extends React.Component{
 
     poll = () => {
         this.setState({pollingCount: this.state.pollingCount + 1, oldDonations: this.state.donations});
-        fetch('https://events.dancemarathon.com/api/events/5406/donations?limit=5')
+        fetch('https://events.dancemarathon.com/api/events/6102/donations?limit=5')
             .then(response => response.json())
             .then(data => {
                 this.setState({donations: data})
@@ -63,7 +63,7 @@ class Dashboard extends React.Component{
             <br></br>
             <div className="countdown">
                 <span>🌰 </span>
-                <Countdown date={new Date("Feb 10, 2024 21:00:00")} daysInHours={true}/>
+                <Countdown date={new Date("Feb 8, 2025 23:00:00")} daysInHours={true}/>
                 <span style={{padding: 0}}> until BuckeyeThon's reveal!</span>
                 <span> 🌰</span>
             </div>
